@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="cursortheme" parent="Theme.AppCompat">
+        <item name="colorControlActivated">#FFFFFF</item>
+
+    </style>
+
+    <!-- Custome Font-->
+    <style name="TextAppearance.FontPath_normal" parent="android:TextAppearance">
+        <item name="fontPath">fonts/helvetica.ttf</item>
+    </style>
+    <style name="TextAppearance.FontPath_bold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/helvetica_bold.ttf</item>
+    </style>
+
+
+</resources>
